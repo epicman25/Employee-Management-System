@@ -1,0 +1,115 @@
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+header{
+	background: rgb(35, 185, 211);
+	color: rgb(253, 252, 253);
+	padding: 8px 20px 6px 40px;
+	height: 50px;
+}
+
+header h1{
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif, cursive;
+	font-weight: 400;
+	font-size: 25px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type:circle;
+	color: white;
+	
+	margin-left: 12px;
+	
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+
+nav ul ul{
+	display: none;
+	position: relative;
+}
+
+#navli ul li ul:hovar{
+	visibility: visible;
+	display: block;
+}
+
+
+
+
+
+#navli{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.homered{
+	background-color: rgb(29, 117, 151);
+	padding: 30px 10px 22px 10px;
+}
+
+.divider{
+	background-color: rgb(19, 83, 165);
+	height: 0px;
+}
+
+.homeblack:hover{
+	background-color:  rgb(29, 117, 151);
+	padding: 30px 10px 22px 10px;
+
+}
+
+
+
+
+
+
+table {
+margin: 0px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover {background-color:#76D7C4;}
+
+th {
+  background-color:rgb(29, 117, 151);
+  color: white;
+}
+
+
+
+
+
+
+
+
+

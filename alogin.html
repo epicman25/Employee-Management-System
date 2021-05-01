@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/alogin.css">
+    <title>Admin Login</title>
+</head>
+<body>
+    <header>
+		<nav>
+			<h1>Employee Management System</h1>
+			<ul id="navli">
+				<li><a class="homered" href="index.html">HOME</a></li>
+				<li><a class="homeablue" href="alogin.html">Admin Login</a></li>
+				<li><a class="homeeblue" href="elogin.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+    <div class="loginbox">
+    <img src="images/avatar.png" class="avatar">
+        <h1>Admin Login </h1>
+        <form action="alogin.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailid" placeholder="Enter Email" required>
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            
+            
+            <input type="submit" name="" value="Login">
+            <a href="./elogin.html">Employee login</a>
+            <a href="./index.html" class="hbtn">Home</a>
+        </form>
+        
+    </div>
+
+</body>
+</html>
